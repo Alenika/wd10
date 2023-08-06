@@ -227,12 +227,8 @@
 			return rand($min, $max);
 		};
 	}
-
 	$randomNumberGenerator = createGenerator(1, 20);
 
-	for ($i = 0; $i < 5; $i++) {
-		echo $randomNumberGenerator() . " ";
-	}
 
 	
 	
